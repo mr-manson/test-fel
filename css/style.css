@@ -1,0 +1,657 @@
+/* Reset and base styles  */
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=Dela+Gothic+One&family=Heebo:wght@400;500;700&family=Montserrat:wght@600&display=swap");
+* {
+  padding: 0px;
+  margin: 0px;
+  border: none;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Links */
+a,
+a:link,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+/* Common */
+aside,
+nav,
+footer,
+header,
+section,
+main {
+  display: block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+ul,
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+img,
+svg {
+  max-width: 100%;
+  height: auto;
+}
+
+address {
+  font-style: normal;
+}
+
+/* Form */
+input,
+textarea,
+button,
+select {
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  background-color: transparent;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button,
+input[type=submit] {
+  display: inline-block;
+  box-shadow: none;
+  background-color: transparent;
+  background: none;
+  cursor: pointer;
+}
+
+input:focus,
+input:active,
+button:focus,
+button:active {
+  outline: none;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+label {
+  cursor: pointer;
+}
+
+legend {
+  display: block;
+}
+
+/*
+font-family: 'Dela Gothic One', cursive;
+font-family: 'DM Sans', sans-serif;
+font-family: 'Heebo', sans-serif;
+font-family: 'Montserrat', sans-serif;
+*/
+html,
+body {
+  font-family: "Heebo", sans-serif;
+  color: #000;
+}
+
+h1 {
+  font-size: 70px;
+}
+
+h2 {
+  font-size: 60px;
+}
+
+.title {
+  font-family: "Dela Gothic One";
+  font-weight: 400;
+  text-transform: capitalize;
+}
+.title span {
+  color: #803eb1;
+}
+
+/*=============== NAV ===============*/
+.nav {
+  padding: 65px 0;
+}
+
+.nav-container {
+  padding: 0 15px;
+  width: 1498px;
+  margin: 0 auto;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  -moz-column-gap: 80px;
+       column-gap: 80px;
+}
+
+.nav-list__link {
+  color: #000;
+  font-size: 25px;
+  font-weight: 400;
+}
+
+/*=============== HOME ===============*/
+.home-container {
+  padding: 0 15px;
+  width: 1636px;
+  margin: 0 auto;
+}
+
+.home {
+  display: flex;
+  justify-content: space-between;
+  padding: 116px 0 67px;
+}
+.home-text {
+  padding: 31px 0;
+  margin-left: 26px;
+  width: 632px;
+}
+.home-content {
+  padding: 117px 16px 0 0;
+  font-size: 40px;
+  font-weight: 400;
+}
+
+.home-img img {
+  width: 813px;
+  height: auto;
+}
+
+/*=============== CHOOSE ===============*/
+.choose-container {
+  padding: 0 15px;
+  width: 1732px;
+  margin: 0 auto;
+}
+
+.choose {
+  padding: 191px 0 0;
+}
+.choose h2.title {
+  margin-left: 64px;
+  width: 528px;
+}
+
+.choose-cards {
+  display: flex;
+  justify-content: center;
+  padding: 117px 0 128px;
+  -moz-column-gap: 59px;
+       column-gap: 59px;
+}
+
+.choose-cards-item {
+  width: 528px;
+  height: 528px;
+  padding: 60px;
+  border-radius: 30px;
+}
+.choose-cards-item.green {
+  background-color: #93dfcd;
+}
+.choose-cards-item.pink {
+  background-color: #fed8d6;
+}
+.choose-cards-item.yellow {
+  background-color: #fedb98;
+}
+
+.icon-box {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 120px;
+  margin-bottom: 84px;
+}
+
+.item-title {
+  margin: 0 0 12px;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.item-text {
+  margin-right: -15px;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+/*=============== ABOUT ===============*/
+.about-container {
+  padding: 0 15px;
+  width: 1654px;
+  margin: 0 auto;
+}
+
+.about {
+  padding: 157px 0 0;
+}
+.about h2.title {
+  margin-left: 25px;
+  width: 528px;
+}
+
+.about-content {
+  display: flex;
+  -moz-column-gap: 153px;
+       column-gap: 153px;
+  margin: 55px 0 103px 77px;
+}
+
+.about-text {
+  width: 846px;
+  padding-top: 84px;
+  font-size: 32px;
+  font-weight: 400;
+}
+.about-text p + p {
+  margin-top: 1em;
+}
+
+.about-img img {
+  width: 540px;
+  height: auto;
+}
+
+/*=============== SERVICES ===============*/
+.services-container {
+  padding: 0 15px;
+  width: 1670px;
+  margin: 0 auto;
+}
+
+.services {
+  padding: 174px 0 0;
+}
+.services h2.title {
+  margin-left: 33px;
+  width: 328px;
+}
+
+.services-cards {
+  display: flex;
+  justify-content: center;
+  padding: 170px 0 95px;
+  -moz-column-gap: 38px;
+       column-gap: 38px;
+}
+
+.services-cards-item {
+  position: relative;
+  width: 521px;
+  height: 653px;
+  padding: 51px 33px;
+  border-radius: 30px;
+  background-color: #93dfcd;
+}
+.services-cards-item.violet {
+  background-color: #803eb1;
+  color: #fff;
+}
+
+.service-item-icon {
+  position: absolute;
+  right: 53px;
+  top: 51px;
+}
+
+.item-text-1,
+.item-text-2 {
+  font-size: 28px;
+  font-weight: 400;
+}
+
+.item-text-1 {
+  width: 313px;
+  margin-top: 87px;
+}
+
+.item-text-2 {
+  width: 462px;
+}
+
+/*=============== FILTER ===============*/
+.filter-wrapper {
+  position: relative;
+}
+
+.filter-container {
+  padding: 0 15px;
+  width: 1604px;
+  margin: 0 auto;
+}
+
+.filter {
+  padding: 171px 0 0;
+}
+.filter h2.title {
+  width: 375px;
+}
+
+.filter-categorys {
+  display: flex;
+  justify-content: center;
+  -moz-column-gap: 130px;
+       column-gap: 130px;
+  margin: 96px 0 164px;
+}
+
+.category-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.category-title {
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  padding-bottom: 68px;
+}
+
+.btns-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 23px;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 276px;
+  opacity: 0.5;
+  background: #803eb1;
+  border-radius: 30px;
+}
+.btn.small {
+  width: 175px;
+}
+.btn.big {
+  width: 300px;
+}
+.btn.active {
+  opacity: 1;
+}
+.btn.form {
+  width: 130px;
+  border-radius: 15px;
+}
+
+.btn-name {
+  color: #fff;
+  font-size: 28px;
+  font-weight: 400;
+  padding: 23px 0;
+}
+
+.btn-icon {
+  margin-left: 16px;
+}
+
+.form-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -moz-column-gap: 42px;
+       column-gap: 42px;
+  padding-bottom: 142px;
+}
+
+.input-field {
+  display: block;
+  width: 817px;
+  padding: 14px 20px;
+  font-size: 32px;
+  font-weight: 400;
+  border-radius: 15px;
+  background: rgba(104, 48, 147, 0.2);
+}
+
+.filter-decor {
+  position: absolute;
+  right: 0;
+  bottom: 72px;
+}
+
+/*=============== SCHEDULE ===============*/
+.schedule-container {
+  padding: 0 15px;
+  width: 1616px;
+  margin: 0 auto;
+}
+
+.schedule {
+  padding: 60px 0 0;
+}
+.schedule h2.title {
+  width: 375px;
+  margin-left: 6px;
+}
+
+.schedule-calendar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 188px;
+  padding-bottom: 116px;
+}
+
+.calendar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 110px;
+}
+
+.days-list,
+.nums-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  -moz-column-gap: 31px;
+       column-gap: 31px;
+}
+
+.days-list {
+  border-bottom: 1px solid #000;
+}
+
+.nums-list {
+  margin-bottom: 84px;
+}
+
+.day,
+.num {
+  display: inline-block;
+  width: 200px;
+  text-align: center;
+}
+
+.day {
+  padding-bottom: 14px;
+  font-size: 35px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.num {
+  padding-top: 34px;
+  font-size: 50px;
+  font-weight: 400;
+}
+
+.calendar-rows {
+  display: flex;
+  flex-direction: column;
+  row-gap: 21px;
+}
+
+.row-item {
+  display: flex;
+  justify-content: space-between;
+  -moz-column-gap: 31px;
+       column-gap: 31px;
+}
+.row-item .btn {
+  background-color: #e1d6e9;
+  opacity: 1;
+}
+.row-item .btn .btn-name {
+  color: #000;
+  font-size: 35px;
+}
+.row-item .btn.active {
+  background-color: #803eb1;
+}
+.row-item .btn.active .btn-name {
+  color: #fff;
+}
+
+.row-item .btn {
+  width: 200px;
+  height: 65px;
+  border-radius: 15px;
+}
+
+/*=============== CLIENTS ===============*/
+.clients-container {
+  padding: 0 15px;
+  width: 1616px;
+  margin: 0 auto;
+}
+
+.clients {
+  padding: 60px 0 0;
+}
+.clients h2.title {
+  width: 490px;
+}
+
+.clients-img {
+  width: 1476px;
+  height: 1240px;
+  margin: 166px 0 104px 167px;
+}
+
+/*=============== FQA ===============*/
+.fqa-wrapper {
+  position: relative;
+}
+
+.fqa-container {
+  padding: 0 15px;
+  width: 1616px;
+  margin: 0 auto;
+}
+
+.fqa {
+  padding: 143px 0 0;
+}
+.fqa h2.title {
+  width: 163px;
+}
+
+.fqa-cards {
+  display: flex;
+  flex-direction: column;
+  row-gap: 50px;
+  margin: 130px 0 116px;
+}
+
+.fqa-cards-item {
+  padding: 20px 50px;
+  background-color: #81c5b4;
+  border-radius: 30px;
+}
+.fqa-cards-item:nth-child(1) {
+  padding-right: 213px;
+}
+.fqa-cards-item:nth-child(2) {
+  width: 1324px;
+  padding-right: 50px;
+}
+.fqa-cards-item:nth-child(3) {
+  padding-right: 50px;
+}
+.fqa-cards-item:nth-child(4) {
+  width: 1205px;
+  padding-right: 50px;
+}
+.fqa-cards-item .item-title {
+  font-size: 25px;
+  text-transform: uppercase;
+  margin-bottom: 17px;
+}
+.fqa-cards-item .item-text {
+  font-size: 28px;
+}
+
+.fqa-circle-1 {
+  position: absolute;
+  left: 0;
+  top: 302px;
+}
+
+.fqa-circle-2 {
+  position: absolute;
+  right: 31px;
+  bottom: -212px;
+}
+
+/*=============== CONTACTS ===============*/
+.contacts-container {
+  padding: 0 15px;
+  width: 1604px;
+  margin: 0 auto;
+}
+
+.contacts {
+  padding: 155px 0 101px;
+}
+.contacts h2.title {
+  width: 453px;
+}
+
+.socials-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -moz-column-gap: 46px;
+       column-gap: 46px;
+  margin-top: 155px;
+}/*# sourceMappingURL=style.css.map */
