@@ -60,7 +60,7 @@ h2 {
 /*=============== HOME ===============*/
 .home-container {
   padding: 0 15px;
-  width: 1636px;
+  max-width: 1636px;
   margin: 0 auto;
 }
 
@@ -71,7 +71,7 @@ h2 {
   &-text {
     padding: 31px 0;
     margin-left: 26px;
-    width: 632px;
+    max-width: 632px;
   }
   &-content {
     padding: 117px 16px 0 0;
@@ -88,7 +88,7 @@ h2 {
 /*=============== CHOOSE ===============*/
 .choose-container {
   padding: 0 15px;
-  width: 1732px;
+  max-width: 1732px;
   margin: 0 auto;
 }
 
@@ -96,7 +96,7 @@ h2 {
   padding: 191px 0 0;
   h2.title {
     margin-left: 64px;
-    width: 528px;
+    max-width: 528px;
   }
 }
 
@@ -108,8 +108,8 @@ h2 {
 }
 
 .choose-cards-item {
-  width: 528px;
-  height: 528px;
+  max-width: 528px;
+  max-height: 528px;
   padding: 60px;
   border-radius: $general-radius;
 
@@ -148,7 +148,7 @@ h2 {
 /*=============== ABOUT ===============*/
 .about-container {
   padding: 0 15px;
-  width: 1654px;
+  max-width: 1654px;
   margin: 0 auto;
 }
 
@@ -156,7 +156,7 @@ h2 {
   padding: 157px 0 0;
   h2.title {
     margin-left: 25px;
-    width: 528px;
+    max-width: 528px;
   }
 }
 
@@ -168,7 +168,7 @@ h2 {
 }
 
 .about-text {
-  width: 846px;
+  max-width: 846px;
   padding-top: 84px;
   font-size: 32px;
   font-weight: 400;
@@ -186,7 +186,7 @@ h2 {
 /*=============== SERVICES ===============*/
 .services-container {
   padding: 0 15px;
-  width: 1670px;
+  max-width: 1670px;
   margin: 0 auto;
 }
 
@@ -194,7 +194,7 @@ h2 {
   padding: 174px 0 0;
   h2.title {
     margin-left: 33px;
-    width: 328px;
+    max-width: 328px;
   }
 }
 
@@ -207,8 +207,8 @@ h2 {
 
 .services-cards-item {
   position: relative;
-  width: 521px;
-  height: 653px;
+  max-width: 521px;
+  max-height: 653px;
   padding: 51px 33px;
   border-radius: $general-radius;
   background-color: #93dfcd;
@@ -231,12 +231,12 @@ h2 {
 }
 
 .item-text-1 {
-  width: 313px;
+  max-width: 313px;
   margin-top: 87px;
 }
 
 .item-text-2 {
-  width: 462px;
+  max-width: 462px;
 }
 
 /*=============== FILTER ===============*/
@@ -246,14 +246,14 @@ h2 {
 
 .filter-container {
   padding: 0 15px;
-  width: 1604px;
+  max-width: 1604px;
   margin: 0 auto;
 }
 
 .filter {
   padding: 171px 0 0;
   h2.title {
-    width: 375px;
+    max-width: 375px;
   }
 }
 
@@ -346,7 +346,7 @@ h2 {
 /*=============== SCHEDULE ===============*/
 .schedule-container {
   padding: 0 15px;
-  width: 1616px;
+  max-width: 1616px;
   margin: 0 auto;
 }
 
@@ -370,6 +370,7 @@ h2 {
   display: flex;
   flex-direction: column;
   align-items: center;
+  max-width: 1586px;
   padding-bottom: 110px;
 }
 
@@ -391,7 +392,6 @@ h2 {
 
 .day,
 .num {
-  display: inline-block;
   width: 200px;
   text-align: center;
 }
@@ -444,7 +444,7 @@ h2 {
 /*=============== CLIENTS ===============*/
 .clients-container {
   padding: 0 15px;
-  width: 1616px;
+  max-width: 1616px;
   margin: 0 auto;
 }
 
@@ -457,7 +457,7 @@ h2 {
 
 .clients-img {
   width: 1476px;
-  height: 1240px;
+  height: auto;
   margin: 166px 0 104px 167px;
 }
 
@@ -468,7 +468,7 @@ h2 {
 
 .fqa-container {
   padding: 0 15px;
-  width: 1616px;
+  max-width: 1616px;
   margin: 0 auto;
 }
 
@@ -494,14 +494,14 @@ h2 {
     padding-right: 213px;
   }
   &:nth-child(2) {
-    width: 1324px;
+    max-width: 1324px;
     padding-right: 50px;
   }
   &:nth-child(3) {
     padding-right: 50px;
   }
   &:nth-child(4) {
-    width: 1205px;
+    max-width: 1205px;
     padding-right: 50px;
   }
 
@@ -530,7 +530,7 @@ h2 {
 /*=============== CONTACTS ===============*/
 .contacts-container {
   padding: 0 15px;
-  width: 1604px;
+  max-width: 1604px;
   margin: 0 auto;
 }
 
