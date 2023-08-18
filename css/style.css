@@ -143,7 +143,7 @@ h2 {
 
 .nav-container {
   padding: 0 15px;
-  width: 1498px;
+  max-width: 1498px;
   margin: 0 auto;
 }
 
@@ -214,7 +214,7 @@ h2 {
 
 .choose-cards-item {
   max-width: 528px;
-  max-height: 528px;
+  max-height: auto;
   padding: 60px;
   border-radius: 30px;
 }
@@ -312,7 +312,7 @@ h2 {
 .services-cards-item {
   position: relative;
   max-width: 521px;
-  max-height: 653px;
+  max-height: auto;
   padding: 51px 33px;
   border-radius: 30px;
   background-color: #93dfcd;
