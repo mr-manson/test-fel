@@ -371,6 +371,9 @@ h2 {
   align-items: center;
   max-width: 1586px;
   padding-bottom: 110px;
+  &.blur {
+    filter: blur(7.5px);
+  }
 }
 
 .days-list,
@@ -515,7 +518,9 @@ h2 {
 }
 
 .fqa-circle-1 {
-  display: none;
+  position: absolute;
+  left: 0;
+  top: 302px;
 }
 
 .fqa-circle-2 {
